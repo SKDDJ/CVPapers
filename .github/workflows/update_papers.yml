@@ -28,9 +28,9 @@ jobs:
     # Configure git to use the Personal Access Token
     - name: Configure git
       run: |
-        git config --local user.email "874238092@qq.com"
-        git config --local user.name "TTXS123OK"
-        git remote add origin_https "https://x-access-token:${{ secrets.MY_GITHUB_TOKEN }}@github.com/TTXS123OK/CVPapers.git"
+        git config --local user.email "yimingshi666@gmail.com"
+        git config --local user.name "yimingshi"
+        git remote add origin_https "https://x-access-token:${{ secrets.MY_GITHUB_TOKEN }}@github.com/SKDDJ/CVPapers.git"
 
     # Step to run the fetching script
     - name: Find the last date in cs.CV
